@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#new-book {
+    background-color: lightgreen;
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#new-book-form {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid lightgreen;
+    padding: 20px;
+}
+
+#title, #author, #pages {
+    width: 350px;
+    height: 20px;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid lightgrey;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#title:focus, #author:focus, #pages:focus, #read:focus {
+    background-color: lightblue;
+}
+
+
+.submit {
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    border-style: none;
+    background-color: lightgreen;
+}
+
+.library {
+    align-self: flex-start;
+    justify-content: center;
+    display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  
+}
+
+.book-card {
+   padding : 10px 30px;
+   border: 2px solid black ;
+   margin-right: 20px;
+   text-align: center;
+}
+
+.remove-button {
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10em;
+    background-color: lightblue;
+}
+
+.toggle {
+    width: 50%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10em;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
